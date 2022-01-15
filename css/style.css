@@ -24,6 +24,7 @@ nav ul li{
 
 a{
     text-decoration: none;
+    color: #3A3A3A;
 }
 /* common styles */
 header, #hero-section{
@@ -72,15 +73,18 @@ h3{
     transition-delay: 2s ease;
 }
 /* sponsor section */
-#sponsor{
+/* #sponsor{
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    /* border-top: 1px solid #AAAAAA; */
+    justify-content: space-around;
+    border-top: 1px solid #AAAAAA;
+    background-color: gray;
 }
 #sponsor img{
+    height: 40px;
+    width: 100px;
     padding: 0 20px;
-}
+} */
 /* popular collection */
 #popular-collection{
     /* margin-top: 100px; */
@@ -111,7 +115,10 @@ h3{
     padding: 10px;
     border-radius: 10px;
 }
-
+/* .popular-item img:hover{
+    transform: scale(.9);
+    box-sizing: border-box;
+} */
 .popular-item i{
     color: orange;
     font-size: .5em;
@@ -206,12 +213,13 @@ footer i{
     #hero-section{
         grid-template-columns: repeat(1,1fr);
     }
-    #sponsor{
+    /* #sponsor{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 20px;
-        /* border-top: 1px solid #AAAAAA; */
-    }
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+        text-align: center;
+         border-top: 1px solid #AAAAAA; 
+    } */
     .popular-collection-items{
         grid-template-columns: repeat(2,1fr);
     }
@@ -235,12 +243,12 @@ footer i{
     #hero-section{
         grid-template-columns: repeat(1,1fr);
     }
-    #sponsor{
+    /* #sponsor{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
         gap: 20px;
-        /* border-top: 1px solid #AAAAAA; */
-    }
+        border-top: 1px solid #AAAAAA; 
+    } */
     .popular-collection-items{
         grid-template-columns: repeat(1,1fr);
     }
